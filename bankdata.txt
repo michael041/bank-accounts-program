@@ -1,0 +1,10 @@
+Steve Jensen 100000001 127856 Checking 55.55 Open
+Mary Chapman 100000002 569334 Checking 0.00 Open
+Steve Zappa 100000003 987104 Savings 2.33 Open
+Frank Vai 100000004 222382 Savings 5000.00 Open
+Lisa James 100000005 321333 Checking 3000.99 Open
+Trevor Lavery 100000006 452219 CD 749.67 Open
+Earl Gallant 100000007 438844 Checking 0.00 Open
+Patricia Fahn 100000008 768992 CD 867.45 Open
+Vincent Carter 100000009 332187 Savings 0.00 Open
+George Conte 100000011 662196 Savings 2234.60 Open

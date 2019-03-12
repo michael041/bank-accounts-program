@@ -1,0 +1,330 @@
+
+Database of bank accounts
+
+Account holder   Social security number   Account number   Account type   balance   Status
+Steve Jensen                 100000001           127856       Checking     $55.55     Open
+Mary Chapman                 100000002           569334       Checking      $0.00     Open
+Steve Zappa                  100000003           987104        Savings      $2.33     Open
+Frank Vai                    100000004           222382        Savings   $5000.00     Open
+Lisa James                   100000005           321333       Checking   $3000.99     Open
+Trevor Lavery                100000006           452219             CD    $749.67     Open
+Earl Gallant                 100000007           438844       Checking      $0.00     Open
+Patricia Fahn                100000008           768992             CD    $867.45     Open
+Vincent Carter               100000009           332187        Savings      $0.00     Open
+George Conte                 100000011           662196        Savings   $2234.60     Open
+
+Total balance of checking accounts: $3056.54
+Total balance of savings accounts: $7236.93
+Total balance of CD accounts: $1617.12
+Total balance of all accounts: $11910.59
+
+
+Transaction requested: Balance inquiry
+Account Number: 127856
+Current balance: $55.55
+
+
+Transaction requested: Balance inquiry
+Error: Account 22222 does not exist
+
+
+Transaction requested: Withdrawal
+Account: 452219
+Amount to withdraw: $30.00
+Old balance: $749.67
+New balance: $719.67
+
+
+Transaction requested: Withdrawal
+Account: 127856
+Amount to withdraw: $40.00
+Withdrawal fee: $1.50
+Old balance: $55.55
+New balance: $14.05
+
+
+Transaction requested: Withdrawal
+Account: 569334
+Error: -30.00 is an invalid amount
+
+
+Transaction requested: Withdrawal
+Account: 987104
+Error: Insufficient funds to withdraw $100.00 from
+Current balance: $2.33
+
+
+Transaction requested: Account information with transaction history
+Account information
+Account number: 127856
+Owner of account: Steve Jensen
+Social security number: 100000001
+Account type: Checking
+Balance: $14.05
+Transaction history:
+Transaction type: Balance
+Amount: 0.0
+Transaction type: Withdrawal
+Amount: 40.0
+
+
+Transaction requested: Account information with transaction history
+Error: Social security number 553002199 doesn't have a bank account
+
+
+Transaction requested: Withdrawal
+Error: Account 11111 does not exist
+
+
+Transaction requested: Account deletion
+Deleted account: 332187
+
+
+Transaction requested: Account deletion
+Account 662196 has a non zero balance of $2234.60.
+The remaining balance must be withdrawn for the account to be deleted.
+
+
+Transaction requested: Withdrawal
+Account: 662196
+Amount to withdraw: $2234.60
+Old balance: $2234.60
+New balance: $0.00
+
+
+Transaction requested: Account deletion
+Deleted account: 662196
+
+
+Transaction requested: Account deletion
+Error: Account 321145 does not exist
+
+
+Transaction requested: Account creation
+Error: Account 127856 already exists
+
+
+-1
+Transaction requested: Account creation
+New account: 225221
+Account owner: Richard Williams
+account type: Checking
+Balance: $300.00
+
+
+-1
+Transaction requested: Account creation
+New account: 556639
+Account owner: Trevor James
+account type: CD
+Balance: $1000.00
+
+
+Error: 2 is an invalid selection. Try again.
+
+Error: 1 is an invalid selection. Try again.
+
+Error: 3 is an invalid selection. Try again.
+
+-1
+Transaction requested: Account creation
+New account: 448211
+Account owner: Patrick Brown
+account type: Savings
+Balance: $10000.00
+
+
+Transaction requested: Account creation
+Error: 1111 is an invalid account number
+
+
+Transaction requested: Deposit
+Account: 225221
+Amount to deposit: $500.00
+Old balance: $300.00
+New balance: $800.00
+
+
+Transaction requested: Deposit
+Account: 448211
+Error: -33.00 is an invalid amount
+
+
+Transaction requested: Deposit
+Error: Account 235 does not exist
+
+
+Transaction requested: Account information
+Account information
+Account number: 569334
+Owner of account: Mary Chapman
+Social security number: 100000002
+Account type: Checking
+Balance: $0.00
+
+
+Transaction requested: Account information
+Error: Social security number 999009122 doesn't have a bank account
+
+
+Transaction requested: Account close
+Account closed: 127856
+
+
+Transaction requested: Account close
+Account closed: 569334
+
+
+Transaction requested: withdrawal
+Error: Account 127856 is closed. Reopen the account to perform transactions.
+
+
+Transaction requested: Account deletion
+Error: Account 569334 Reopen the account to perform transactions.
+
+
+Transaction requested: Account info with history
+Error: Account 127856 is closed. Reopen the account to perform transactions.
+
+
+Transaction requested: Deposit
+Error: Account 569334 is closed. Reopen the account to perform transactions.
+
+
+Transaction requested: Account info
+Error: Account 569334 is closed. Reopen the account to perform transactions.
+
+
+Transaction requested: Reopen account
+Re-opened account: 127856
+
+
+Transaction requested: Deposit
+Account: 127856
+Amount to deposit: $600.00
+Old balance: $14.05
+New balance: $614.05
+
+
+Transaction requested: Reopen account
+Error: Account 696013 doesn't exist
+
+
+Transaction requested: Account close
+Error: Account 669031 doesn't exist
+
+
+Transaction requested: Account information with transaction history
+Error: Social security number 322115 doesn't have a bank account
+
+
+Transaction requested: Withdrawal
+Account: 321333
+Amount to withdraw: $100.00
+Old balance: $3000.99
+New balance: $2900.99
+
+
+Error: j is an invalid selection. Try again.
+
+Error: k is an invalid selection. Try again.
+
+Database of bank accounts
+
+Account holder   Social security number   Account number   Account type   balance   Status
+Steve Jensen                 100000001           127856       Checking    $614.05     Open
+Mary Chapman                 100000002           569334       Checking      $0.00   Closed
+Steve Zappa                  100000003           987104        Savings      $2.33     Open
+Frank Vai                    100000004           222382        Savings   $5000.00     Open
+Lisa James                   100000005           321333       Checking   $2900.99     Open
+Trevor Lavery                100000006           452219             CD    $719.67     Open
+Earl Gallant                 100000007           438844       Checking      $0.00     Open
+Patricia Fahn                100000008           768992             CD    $867.45     Open
+Richard Williams             111110111           225221       Checking    $800.00     Open
+Trevor James                 111110001           556639             CD   $1000.00     Open
+Patrick Brown                111110009           448211        Savings  $10000.00     Open
+
+Total balance of checking accounts: $4315.04
+Total balance of savings accounts: $15002.33
+Total balance of CD accounts: $2587.12
+Total balance of all accounts: $21904.49
+
+
+Transaction History
+
+Transaction history for account: 127856
+Transaction type: Balance
+Amount: 0.00
+
+Transaction type: Withdrawal
+Amount: 40.00
+
+Transaction type: Account info with transaction history
+Amount: 0.00
+
+Transaction type: Close account
+Amount: 0.00
+
+Transaction type: Account info with transaction history
+Amount: 0.00
+
+Transaction type: Reopen account
+Amount: 0.00
+
+Transaction type: Deposit
+Amount: 600.00
+
+
+Transaction history for account: 569334
+Transaction type: Withdrawal
+Amount: -30.00
+
+Transaction type: Account info
+Amount: 0.00
+
+Transaction type: Close account
+Amount: 0.00
+
+Transaction type: Delete account
+Amount: 0.00
+
+Transaction type: Deposit
+Amount: 0.00
+
+Transaction type: Account info
+Amount: 0.00
+
+
+Transaction history for account: 987104
+Transaction type: Withdrawal
+Amount: 100.00
+
+
+Transaction history for account: 222382
+
+Transaction history for account: 321333
+Transaction type: Withdrawal
+Amount: 100.00
+
+
+Transaction history for account: 452219
+Transaction type: Withdrawal
+Amount: 30.00
+
+
+Transaction history for account: 438844
+
+Transaction history for account: 768992
+
+Transaction history for account: 225221
+Transaction type: Deposit
+Amount: 500.00
+
+
+Transaction history for account: 556639
+
+Transaction history for account: 448211
+Transaction type: Deposit
+Amount: -33.00
+
+
